@@ -16,3 +16,5 @@ You can set up your free account by following these steps:
 * If you already have an account, verify that you can visit github.com within your organization's network.
 
 GitHub is designed to run on the current versions of all major browsers. Take a look at our list of supported browsers.
+
+test

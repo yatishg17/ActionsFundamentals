@@ -1,0 +1,9 @@
+name: Github demo
+on:
+  push:
+    branches: main
+    paths-ignore: [.github/**]
+  pull_request:
+    branches: main
+  schedules:
+    - cron: "*/5 * * * *"

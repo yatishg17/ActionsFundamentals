@@ -5,5 +5,17 @@ on:
     paths-ignore: [.github/**]
   pull_request:
     branches: main
-  schedules:
+  schedule:
     - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+         echo "test ${{ github.event_name}}" /n \
+        shell: bash
+        
+
+
